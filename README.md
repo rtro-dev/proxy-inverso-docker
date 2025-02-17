@@ -8,6 +8,7 @@
   - [Creación docker-compose.yml](#creación-docker-composeyml)  
   - [Ejecución](#ejecución)
 - [Opción docker-compose + Dockerfile](#opción-docker-compose--dockerfile)
+- [Screenshot](#screenshot)
 
 ## Opción solo con compose
 

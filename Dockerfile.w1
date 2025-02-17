@@ -1,0 +1,6 @@
+FROM nginx:latest
+RUN mkdir -p /var/www/w1/html
+COPY files/w1/default.conf /etc/nginx/conf.d/default.conf
+COPY files/w1/html/index.html /var/www/w1/html/index.html
+EXPOSE 8080
+CMD ["nginx", "-g", "daemon off;"]
